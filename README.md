@@ -55,8 +55,8 @@ GNU GPL v2. See LICENSE for full text.
       11"x11") or larger
   * Or
     * 1x 280mm x 280mm precut acrylic center panel
-    * 4x 280mm x 130mm precut acrylic side panels
-    * 4x 130mm x 130mm precut acrylic corner panels (optional)
+    * 4x 280mm x 125mm precut acrylic side panels
+    * 4x 125mm x 125mm precut acrylic corner panels (optional)
   * Optionally, acetal (a.k.a. POM, Delrin) as a slipperier center panel
     instead of acrylic
 * Aluminum extrusion (2020 profile)
@@ -74,9 +74,8 @@ GNU GPL v2. See LICENSE for full text.
     * Extra holes through the center for wiring recommended
   * 4x 99.5mm extrusions, both ends tapped
     * Extra holes through the center for wiring recommended
-* Force sensitive resistors (4x Interlink
-  [200mm 408](https://buyinterlinkelectronics.com/collections/new-standard-force-sensors/products/fsr-model-408-200mm-length) or 8x Interlink
-  [400](https://buyinterlinkelectronics.com/collections/new-standard-force-sensors/products/fsr-model-400)
+* Force sensitive resistors (4x 200mm [Interlink 408](https://buyinterlinkelectronics.com/collections/new-standard-force-sensors/products/fsr-model-408-200mm-length) or 8x
+  [Interlink 400](https://buyinterlinkelectronics.com/collections/new-standard-force-sensors/products/fsr-model-400))
 * 12x countersunk M6x30mm bolts
 * 12x hex-head M6x30mm bolts
 * 4x M6x40mm threaded rods
