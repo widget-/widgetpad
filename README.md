@@ -133,12 +133,41 @@ as part of v0.
 
 ### PCBs
 
-Currently only panel PCBs exist. They will be heavily redesigned in the
-future but still work acceptably well in their current state.
+#### Microcontroller breakout
+
+The microcontroller breakout is for a Teensy 4.0 or Teensy 4.1.
+
+The Teensy 4.0 will allow control of up to 10 FSRs, which can map to
+up to 10 panels, or 2 FSRs on up to 5 panels.
+
+The Teensy 4.1 will allow control of up to 18 FSRs, which allows an
+amount of flexibility with regards to a high-end setup:
+
+* 4 FSRs on each of 4 panels (dance)
+* 2 FSRs on each of 8 or 9 panels (techno)
+* 2 or 3 FSRs on 4 panels and 4 on a center panel (pump)
+* 4 FSRs on 4 panels, and 2 on a center panel (pump)
+
+The breakout also has:
+
+* A 3-pin JST-HX connection for panel LEDs
+* 9 LEDs for checking FSR pressed status
+* 4 external buttons, for an external arcade button assembly
+* 3 internal buttons for controlling LED brightness, and triggering
+  an as-yet-unwritten pad calibration
+* A buzzer or speaker, to add audio "tactility" to pressing the panels
+* A jumper to bridge USB power with the external power input for LEDs
+
+The breakout is designed using KiCAD and uses
+[teensy_library](https://github.com/XenGi/teensy_library) and
+[teensy.pretty](https://github.com/XenGi/teensy.pretty) by
+[XenGi](https://github.com/XenGi), released under the BSD license.
+
+#### Panels
 
 The PCBs are designed using [KiCAD](https://www.kicad.org/).
 
-![PCB Render](pcb/pcb-render-lit.png)
+![PCB Render](pcb/panel/pcb-render-lit.png)
 
 The PCBs each hold an 8x4 grid of WS2812C LEDs. An external 5V power
 source is recommended if using LEDs.
