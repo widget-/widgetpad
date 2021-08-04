@@ -1,4 +1,4 @@
-19235476962649762
+19240359242052488
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83111,6 +83111,13 @@ Teensy_LC
 39
 39
 widgetpad_parts
+JCLPCB_Assembly_Hole
+
+
+0
+0
+0
+widgetpad_parts
 R_SMD_or_TH
 
 
@@ -83123,4 +83130,18 @@ XKB_Connectivity_DC-044A-2.5A
 
 0
 5
-4
+3
+widgetpad_parts
+panel-arrow
+
+
+0
+0
+0
+widgetpad_parts
+rect-hole
+
+
+0
+0
+0

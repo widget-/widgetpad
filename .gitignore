@@ -1,2 +1,6 @@
-**/*.kicad_pcb-bak
-**/*.sch-bak
+*.kicad_pcb-bak
+*.sch-bak
+*-bak
+**/_autosave*
+gerbers/
+!gerbers.zip
