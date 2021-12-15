@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name widgetpad_parts)(type KiCad)(uri ${KIPRJMOD}/../common_lib/widgetpad_parts.pretty)(options "")(descr ""))
-  (lib (name teensy)(type KiCad)(uri ${KIPRJMOD}/../common_lib/teensy.pretty)(options "")(descr ""))
+  (lib (name "widgetpad_parts")(type "KiCad")(uri "${KIPRJMOD}/../common_lib/widgetpad_parts.pretty")(options "")(descr ""))
+  (lib (name "teensy")(type "KiCad")(uri "${KIPRJMOD}/../common_lib/teensy.pretty")(options "")(descr ""))
+  (lib (name "widgetpad-parts")(type "KiCad")(uri "${KIPRJMOD}/widgetpad-parts.pretty")(options "")(descr ""))
 )
